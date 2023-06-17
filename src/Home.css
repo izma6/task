@@ -1,0 +1,42 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    width: 40%;
+    
+    font-size: 25px;
+    width:500px;
+}
+.content p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.content span{
+    color: orange;
+}
+.vector{
+    width: 60%;
+    margin-left:50px;
+    z-index:100;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.card1{
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    height:400px;
+    margin-right:40px;
+    border-radius: 10px;
+    margin-bottom:50%;
+}
+.card1 p{
+    color: grey;
+    font-size: 12px;
+}
